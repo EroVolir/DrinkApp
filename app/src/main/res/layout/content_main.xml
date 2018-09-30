@@ -28,8 +28,9 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <Button
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
             android:text="-"
             android:textStyle="bold"
             android:id="@+id/button_minus"
@@ -37,20 +38,22 @@
             />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="0"
-            android:textSize="35dp"
+            android:textSize="30dp"
             android:id="@+id/text_view_number"
-            android:paddingRight="20dp"
-            android:paddingLeft="20dp"
+            android:gravity="center"
+
             />
 
 
 
         <Button
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
             android:text="+"
             android:textStyle="bold"
             android:id="@+id/button_plus"
@@ -75,7 +78,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_weight="4">
+        android:layout_margin="30dp">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -99,9 +102,10 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         android:text="@string/order"
         android:textSize="25dp"
         android:onClick="submitOrder"
-        android:layout_weight="1"
+
         />
 </LinearLayout>

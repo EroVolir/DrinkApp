@@ -1,13 +1,15 @@
 package com.example.android.coffeeapp;
 
-/**
- * Created by tim_r_000 on 11/11/2015.
- */
+
 public class CoffeeOrder {
 
     private double price;
     private int numberOfCoffee;
 
+    /**
+     * Constructor CoffeeOrder
+     * @param price set the price of a coffee
+     */
     public CoffeeOrder(double price){
         if(price >0){
             this.price = price;

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="quantity">QUANTITE</string>
-    <string name="price">PRIX</string>
-    <string name="order">COMMANDER</string>
+    <string name="app_name">CoffeeApp</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="quantity">Quantité</string>
+    <string name="price">Prix</string>
+    <string name="order">Commander</string>
     <string name="total">Total:</string>
 
 </resources>
